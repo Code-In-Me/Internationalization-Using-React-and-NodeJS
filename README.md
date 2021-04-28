@@ -1,7 +1,10 @@
 # Internationalization-Using-React-and-NodeJS
 This repository contains how to achieve internationalization using react and nodejs
 
-make a post request to http://localhost:3003/languages
+extract the zip folder and after that got to the frontend directory and run npm install
+go to the backend folder and run npm install
+
+after running make a post request to http://localhost:3003/languages
 
 {
     "language": [{
@@ -80,7 +83,17 @@ make a post request to http://localhost:3003/languages
         "RecordCounter": "Compteur d'enregistrement",
         "Operation": "Opération",
         "fr_": "fr"
-    }],
+    },
+    
+ /*   {
+    'ir':'ir'
+    and so on 
+    
+    
+    }
+    */
+    
+    ],
     "createdAt": {
         "$date": "2021-04-28T07:28:35.234Z"
     },
@@ -89,3 +102,12 @@ make a post request to http://localhost:3003/languages
     },
     "__v": 0
 }
+
+after making the post request run npm start on the frontend and backend directory 
+the browser opens and displays the project in the default language of the browser.
+The only language i provided is english and french feel free to add more language as much as possible just follow the JSON PATTERN (Edit the POST request to add more language.
+feel free to ask questions
+https://twitter.com/code_In_ME
+adegokeadeleke.ayo@gmail.com
+
+I am currently in search of a job.
