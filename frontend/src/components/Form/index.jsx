@@ -51,7 +51,7 @@ componentDidMount(){
     
       }
       for (var j=0;j<dt.length;j++){
-        if(JSON.stringify(dt[j]).includes('en_')){
+        if(JSON.stringify(dt[j]).includes(navigator.language.substring(0, 2)+'_')){
           language.push(dt[j])
         }
       }
